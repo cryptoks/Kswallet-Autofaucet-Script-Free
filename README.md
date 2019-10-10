@@ -26,7 +26,12 @@ First you need to create a table in mysql name it whatever name you want and upl
 ```sh
 sql/db_table.sql
 ```
-After this step now you have to work in file and give all needed informations (API KEYS,website informations,rewards,percentages,timers,sessions etc.)
+After this step setup your database
+```sh
+database/db.php
+```
+
+After database connection now you have to work in file and give all needed informations (API KEYS,website informations,rewards,percentages,timers,sessions etc.)
 ```sh
 settings/configs.php
 ```
