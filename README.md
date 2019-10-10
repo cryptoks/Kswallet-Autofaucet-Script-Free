@@ -1,29 +1,72 @@
-# Foobar
+# Kswallet - Cryptocurrency Autofaucet Free
 
-Foobar is a Python library for dealing with word pluralization.
+[![N|Solid](https://kswallet.net/images/logo.png)](https://kswallet.net/images/logo.png)
 
-## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
-```bash
-pip install foobar
+Autofaucet script created from Kswallet Dev's for free.
+
+# Features
+  - Super Secure System
+  - Use URL Shorteners (for more profit)
+  - Amazing ADS system (You will x2 your earnings)
+  - AntiadBlock script
+  - Iphub Integration
+  - Cool Referal System
+  - Ban address Option
+  - Ban Ip Option
+  - PopAds File
+  - Manage rewards,timer,user session,referesh timer easly
+  - SEO friendly
+  - PDO Usage
+  - Clean and fast Code
+  
+### How to install Autofaucet
+First you need to create a table in mysql name it whatever name you want and upload this SQL file
+```sh
+sql/db_table.sql
+```
+After this step now you have to work in file and give all needed informations (API KEYS,website informations,rewards,percentages,timers,sessions etc.)
+```sh
+settings/configs.php
+```
+If you are using SSL please go to
+```sh
+libs/solvemedia.php
+```
+and in line 116 define $use_ssl = true
+```php
+function solvemedia_get_html ($pubkey, $error = null, $use_ssl = false)
 ```
 
-## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+### How can i add ads ?
+You can add ads in file
+```sh
+extensions/ads.php
+```
+for example you want to add more than 2 ads in one place
+```php
+$ads468x60_1 = array('<div class="ui banner test ad" data-text="ads1"></div>','<div class="ui banner test ad" data-text="ads2"></div>');
+```
+You can add pop ads in file
+```sh
+extensions/popads.php
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+### How can i Ban someone Address or IP
+If you want to ban someone from using your autfaucet you should go to
+```sh
+banned/ban_address.php
+```
+or
+```sh
+banned/ban_ip.php
+```
+and just add needed informations in array.
 
-Please make sure to update tests as appropriate.
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+
+License
+----
+
+MIT
