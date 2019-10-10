@@ -5,6 +5,10 @@
 
 
 Autofaucet script created from Kswallet Dev's for free.
+https://www.kswallet.net
+
+For Kswallet API KEYS please contact us in this email:
+contact@kswallet.net
 
 # Features
   - Super Secure System
