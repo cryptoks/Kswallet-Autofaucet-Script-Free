@@ -37,8 +37,6 @@ $random_hash = $H->Random(6);
 
 //Get the User IP Address
 $ip = getUserIP();
-//Remove this line when in production
-$ip = "185.67.178.240";
 //Get IPHUB API
 $iphub_api = $admin['iphub_api'];
 //Get Global api key for the kswallet
